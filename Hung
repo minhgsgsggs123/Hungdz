@@ -59,6 +59,13 @@ AddButton(Tab1o, {
   end
   })
 
+AddButton(Tab1o, {
+     Name = "xeter v2",
+    Callback = function()
+    getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+  })
 AddButton(Tab2o, {
      Name = "trẩu ",
     Callback = function()
@@ -74,9 +81,9 @@ AddButton(Tab2o, {
   })
 
 AddButton(Tab2o, {
-     Name = "Maru",
+     Name = "banana hub",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/MaruHub.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banana-Hub/refs/heads/main/Banana-Free.lua"))()
   end
   })
 
